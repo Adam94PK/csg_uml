@@ -1,0 +1,3 @@
+﻿  uml_lab.cpp
+d:\game_dev\uml_lab\uml_lab\uml_lab.cpp(24): warning C4101: 'z': unreferenced local variable
+  uml_lab.vcxproj -> D:\game_dev\uml_lab\Debug\uml_lab.exe
