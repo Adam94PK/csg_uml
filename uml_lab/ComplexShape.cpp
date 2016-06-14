@@ -3,7 +3,7 @@
 #include "Point.h"
 #include <iostream>
 
-ComplexShape::ComplexShape(Shape *s1, Shape *s2, Point p, OPPERATION op) : Shape(p), shape1(s1), shape2(s2), operation(op)
+ComplexShape::ComplexShape(Shape *s1, Shape *s2,const Point & p, OPPERATION op) : Shape(p), shape1(s1), shape2(s2), operation(op)
 {
 }
 

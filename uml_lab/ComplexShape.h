@@ -9,6 +9,6 @@ class ComplexShape : public Shape
 	Shape * shape2;
 	OPPERATION operation;
 public:
-	ComplexShape(Shape * s1, Shape * s2, Point p, OPPERATION op);
+	ComplexShape(Shape * s1, Shape * s2, const Point &p, OPPERATION op);
 	bool in(const Point &p) const;
 };
