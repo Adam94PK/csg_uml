@@ -1,9 +1,14 @@
 ﻿  uml_lab.cpp
-  Point.cpp
-  Generating Code...
-  Skipping... (no relevant changes detected)
-  Shape.cpp
-  Rectangle.cpp
-  ComplexShape.cpp
-  Circle.cpp
+d:\pliki programów (x86)\microsoft visual studio 14.0\vc\include\memory(901): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  d:\pliki programów (x86)\microsoft visual studio 14.0\vc\include\memory(971): note: see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<Point&,double>(Point &,double &&)' being compiled
+          with
+          [
+              _Ty=Circle
+          ]
+  d:\pliki programów (x86)\microsoft visual studio 14.0\vc\include\memory(971): note: see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<Point&,double>(Point &,double &&)' being compiled
+          with
+          [
+              _Ty=Circle
+          ]
+  d:\game_dev\uml_lab\uml_lab\uml_lab.cpp(16): note: see reference to function template instantiation 'std::shared_ptr<Circle> std::make_shared<Circle,Point&,double>(Point &,double &&)' being compiled
   uml_lab.vcxproj -> D:\game_dev\uml_lab\x64\Debug\uml_lab.exe
