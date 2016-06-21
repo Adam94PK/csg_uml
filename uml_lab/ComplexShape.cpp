@@ -10,9 +10,9 @@ ComplexShape::ComplexShape(std::shared_ptr<Shape> &s1, std::shared_ptr<Shape> &s
 bool ComplexShape::in(const Point & poz) const
 {
 	Point temp = poz - center_point;
-	std::cout << "center_p " << center_point.x << center_point.y<<std::endl;
-	std::cout << "poz " << poz.x << poz.y << std::endl;
-	std::cout << "x = " << temp.x << " y = " << temp.y << std::endl;
+	//std::cout << "center_p " << center_point.x << center_point.y<<std::endl;
+	//std::cout << "poz " << poz.x << poz.y << std::endl;
+	//std::cout << "x = " << temp.x << " y = " << temp.y << std::endl;
 	switch(operation)
 	{
 		case il:
